@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grupo Integral Eficaz | Mantenimiento y Limpieza Profesional</title>
+  <style>
+    :root{
+      --azul:#0b3558;
+      --verde:#7a9b3a;
+      --gris:#f2f2f2;
+      --texto:#333;
+    }
+    *{box-sizing:border-box}
+    img{max-width:100%;height:auto}
+    @media(max-width:768px){
+      header{padding:30px 15px}
+      header h1{font-size:1.6em}
+      header p{font-size:1em}
+      section{padding:40px 15px}
+      h2{font-size:1.4em}
+      .card{padding:20px}
+      .galeria img{height:160px}
+      .cta h2{font-size:1.5em}
+      .cta a{padding:14px 24px;font-size:1em}
+    }
+    @media(max-width:480px){
+      header h1{font-size:1.4em}
+      .galeria img{height:140px}
+    }
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--texto);
+      background:#fff;
+    }
+    header{
+      background:linear-gradient(135deg,var(--azul),#124a78);
+      color:#fff;
+      padding:40px 20px;
+      text-align:center;
+    }
+    header img{
+      max-width:180px;
+      margin-bottom:20px;
+    }
+    header h1{
+      margin:10px 0;
+      letter-spacing:2px;
+    }
+    header p{
+      font-size:1.1em;
+      opacity:.95;
+    }
+    section{
+      padding:60px 20px;
+      max-width:1200px;
+      margin:auto;
+    }
+    h2{
+      text-align:center;
+      color:var(--azul);
+      margin-bottom:40px;
+    }
+    .servicios{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+    .card{
+      background:var(--gris);
+      border-radius:14px;
+      padding:25px;
+      text-align:center;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);
+    }
+    .card h3{
+      color:var(--verde);
+      margin-bottom:10px;
+    }
+    .galeria{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:15px;
+    }
+    .galeria img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+      border-radius:12px;
+    }
+    .cta{
+      background:var(--azul);
+      color:#fff;
+      text-align:center;
+      padding:50px 20px;
+    }
+    .cta a{
+      display:inline-block;
+      margin-top:20px;
+      background:var(--verde);
+      color:#fff;
+      padding:15px 30px;
+      border-radius:30px;
+      text-decoration:none;
+      font-weight:bold;
+    }
+    footer{
+      background:#111;
+      color:#ccc;
+      text-align:center;
+      padding:20px;
+      font-size:.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo_sin_fondo.png" alt="Grupo Integral Eficaz" />
+  <h1>GRUPO INTEGRAL EFICAZ</h1>
+  <p>Confianza y calidad con más de 20 años de experiencia</p>
+</header>
+
+<section>
+  <h2>Nuestros Servicios</h2>
+  <div class="servicios">
+    <div class="card"><h3>Limpieza Profesional</h3><p>Residencial y empresarial: baños, pisos, alfombras, tapicería, vidrios y más.</p></div>
+    <div class="card"><h3>Mantenimiento Integral</h3><p>Soluciones completas para hogares, oficinas y negocios.</p></div>
+    <div class="card"><h3>Jardinería</h3><p>Diseño, mantenimiento y cuidado de áreas verdes.</p></div>
+    <div class="card"><h3>Plomería</h3><p>Reparaciones, instalaciones y mantenimiento preventivo.</p></div>
+    <div class="card"><h3>Electricidad</h3><p>Instalaciones eléctricas, reparaciones y revisiones de seguridad.</p></div>
+    <div class="card"><h3>Reparaciones Generales</h3><p>Pintura, arreglos y trabajos especiales.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Trabajos Realizados</h2>
+  <div class="galeria">
+    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952" alt="Limpieza de tapicería">
+    <img src="https://images.unsplash.com/photo-1598514982846-2c4d3e3b36c3" alt="Limpieza de alfombras">
+    <img src="https://images.unsplash.com/photo-1585421514738-01798e348b17" alt="Limpieza de pisos">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Limpieza de paredes">
+    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a" alt="Limpieza de baños">
+    <img src="https://images.unsplash.com/photo-1590650046871-92c887180603" alt="Limpieza de ventanas">
+  </div>
+  <p style="text-align:center;margin-top:20px;">*Estas imágenes son de referencia. Puedes reemplazarlas fácilmente por fotos reales de tus trabajos.</p>
+</section>
+
+<div class="cta">
+  <h2>¿Necesitas un servicio confiable?</h2>
+  <p>Contáctanos y con gusto te atenderemos.</p>
+  <a href="https://wa.me/523321645169" target="_blank">WhatsApp 33 2164 5169</a>
+</div>
+
+<footer>
+  © 2026 Grupo Integral Eficaz · Todos los derechos reservados
+</footer>
+
+</body>
+</html>
